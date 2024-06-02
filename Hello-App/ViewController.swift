@@ -10,10 +10,12 @@ import UIKit
 class ViewController: UIViewController {
         
     @IBOutlet weak var lblHello: UILabel!
-    
+        
     @IBAction func btnClick(_ sender: Any) {
         lblHello.isHidden = false
     }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
